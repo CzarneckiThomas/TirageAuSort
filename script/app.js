@@ -1,3 +1,5 @@
+//tirage au sort
+
 var participants = ["Marion", "Timeo", "Theo", "Alix","Carole","Eric","David","Rudy","Ylann",
  "Marie","Benoît","Nicolas","Laetitia","Coralie","Christelle","Thomas","Amandine", "Tristan","Aaron","Elina","Laura","Melanie"
 ];
@@ -23,4 +25,3 @@ function createGroup () {
 	}
 
 }
-
