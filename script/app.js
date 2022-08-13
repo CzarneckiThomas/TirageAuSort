@@ -2,7 +2,6 @@ var participants = ["Marion", "Timeo", "Theo", "Alix","Carole","Eric","David","R
  "Marie","Benoît","Nicolas","Laetitia","Coralie","Christelle","Thomas","Amandine", "Tristan","Aaron","Elina","Laura","Melanie"
 ];
 
-const main = document.querySelector('main');
 const button = document.querySelector('button');
 
 button.addEventListener('click', createGroup);
@@ -20,7 +19,7 @@ function createGroup () {
 		participantList.innerHTML = participant
 
 		gagnants.appendChild(participantList);
-		// myInterval = setInterval(createGroup, 3000);
+		
 	}
 
 }
